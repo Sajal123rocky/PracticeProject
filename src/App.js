@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import ProductPage from './components/ProductPage';
+import LightBulb from './components/LightBulb';
+import Crop from './components/crop';
+import FormValidation from './components/FormValidation';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ProductPage></ProductPage> */}
+      {/* <LightBulb></LightBulb> */}
+      {/* <Crop></Crop> */}
+      <FormValidation></FormValidation>
     </div>
   );
 }
